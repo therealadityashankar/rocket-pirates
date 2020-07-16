@@ -1,0 +1,3 @@
+[submodule "wc-router"]
+	path = wc-router
+	url = git@github.com:vanillawc/wc-router.git
