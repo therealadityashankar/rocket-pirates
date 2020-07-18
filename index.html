@@ -4,10 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>rocket pirates</title>
-    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
-    <link rel="stylesheet" 
-          href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
-    <script type="module" src="./wc-router/src/index.js" charset="utf-8"></script>
+    <script type="module" src="/wc-router/src/index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="/index.css" type="text/css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
     <wc-router live-reload>
@@ -15,7 +13,6 @@
       <wc-route 
        path="/start" 
        file="/src/pages/game/game.html"
-       events-loc="/src/pages/game/game.js"
        ></wc-route>
       <wc-route catch-all>
         <p>page not found</p>

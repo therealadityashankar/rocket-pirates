@@ -1,3 +1,6 @@
 [submodule "wc-router"]
 	path = wc-router
 	url = git@github.com:vanillawc/wc-router.git
+[submodule "src/pages/game/imageolive"]
+	path = src/pages/game/imageolive
+	url = git@github.com:therealadityashankar/imageolive.git

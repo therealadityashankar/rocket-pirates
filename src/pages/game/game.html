@@ -1,0 +1,16 @@
+<wc-router live-reload>
+  <wc-route main>
+    <r-a href="/start/1">checkout stage 1!</r-a>
+  </wc-route>
+  <wc-route path="/you-win">
+    <h1>You win !</h1>
+    <r-a href="/start">try another level</r-a>
+  </wc-route>
+  <wc-route path="/you-lose">
+    <h1>Oops !, You lost</h1>
+    <r-a href="/start">try another level</r-a>
+  </wc-route>
+  <wc-route catch-all events-loc="./game.js">
+    <canvas id="game-canvas"></canvas>
+  </wc-route>
+</wc-router>
